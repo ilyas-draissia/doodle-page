@@ -80,6 +80,7 @@ main a{
     height: 70%;
     resize: none;
     outline: none;
+    font-size: 20px;
 }
 .search-bar i{
     color:hsl(206, 6%, 25%,0.8);
@@ -107,9 +108,10 @@ ul{
 main picture{
     height: 6rem;
     width: 25rem;
-    background-image: url(assets/doodle.jfif);
+    background-image: url(assets/google-logo-transparent.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .search-bar{
     height: 3rem;
@@ -180,10 +182,10 @@ p{
     gap: 1rem;
     padding: 2rem 1.5rem 1rem 1.5rem;
     background-color: hsl(180, 100%, 99%);
-    border-radius : 30px 30px 3px 3px;
+    border-radius : 22px 22px 3px 3px;
 }
 .second-icons{
-    border-radius :  3px 3px 30px 30px;
+    border-radius :  3px 3px 22px 22px;
     margin-top: 0.5rem;
  
 }
